@@ -1,0 +1,45 @@
+body{
+    background-image:url('../imgs/pinguim.background.jpg') ;
+    height: 200px;
+    
+}
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box-information{
+    color:aliceblue;
+    margin-top: 200px;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    border: 1px solid #1C1C1C;
+    margin: 200px auto;
+    padding: 20px;
+
+    
+}
+H1{
+    font-size: 50PX;
+    margin-bottom: 15px;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: #FF9500;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #FF9500;
+    padding: 10px;
+}
+a:hover{
+    background-color: #c57300;
+}
